@@ -50,7 +50,7 @@ phishing_tools() {
         2)
             mkdir -p Tools
             cd Tools
-            git clone https://github.com/An0nUD4Y/SocialFish.git
+            git clone https://github.com/pvanfas/socialphish.git
             cd SocialFish
             python3 SocialFish.py
             cd ../../
@@ -58,7 +58,7 @@ phishing_tools() {
         3)
             mkdir -p Tools
             cd Tools
-            git clone https://github.com/DarkSecDevelopers/HiddenEye.git
+            git clone -b Termux-Support-Branch https://github.com/DarkSecDevelopers/HiddenEye.git
             cd HiddenEye
             python3 HiddenEye.py
             cd ../../
